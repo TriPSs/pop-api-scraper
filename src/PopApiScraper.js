@@ -38,6 +38,12 @@ export default class PopApiScraper {
   static _installedPlugins: Map<string, any> = new Map()
 
   /**
+   * Function that is called when scraping is finished
+   * @type function
+   */
+  static onFinish = () => {}
+
+  /**
    * Create a new BaseScraper object.
    * The base modules for popcorn-api
    * @param {!PopApi} PopApi - The PopApiScraper instance.
@@ -47,12 +53,12 @@ export default class PopApiScraper {
    */
   constructor(PopApi: any, {
     statusPath,
-    updatedPath
+    updatedPath,
   }: Object): void {
     const { name } = this.constructor
     PopApi.debug(`Registering ${name} with options: %o`, {
       statusPath,
-      updatedPath
+      updatedPath,
     })
 
     if (!statusPath || !updatedPath) {
@@ -145,6 +151,7 @@ export default class PopApiScraper {
 
     return this
   }
+
   /**
    * Initiate the scraping.
    * @param {!number} [concurrency=1] - How many providers to scrape

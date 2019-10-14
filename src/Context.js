@@ -30,8 +30,10 @@ export default class Context {
    * Execute the set provider.
    * @returns {Promise<Array<Object>, Error>} - A list of scraped content.
    */
-  execute(): Promise<Array<Object> | Error> {
-    return this.provider.scrapeConfigs()
+  async execute(): Promise<Array<Object> | Error> {
+    const scraped = await this.provider.scrapeConfigs()
+
+    return this.provider.scrapedConfigs(scraped)
   }
 
 }

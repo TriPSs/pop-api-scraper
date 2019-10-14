@@ -1,6 +1,6 @@
 {
   "name": "@pct-org/pop-api-scraper",
-  "version": "0.7.0",
+  "version": "0.7.2",
   "description": "The base modules for the popcorn-api scraper",
   "keywords": [
     "api",

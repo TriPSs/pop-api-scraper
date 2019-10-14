@@ -29,4 +29,14 @@ export default class IProvider {
     throw new Error('Using default method: \'scrapeConfigs\'')
   }
 
+  /**
+   * Fired when done scraping the configs
+   * @param {Array<Object>} scraped - The return value from scrapeConfigs
+   * @returns {Promise<Array<Object>>} - The results of the scrape
+   * configurations.
+   */
+  scrapedConfigs(scraped: Array<Object>): Promise<Array<Object>> {
+    return scraped
+  }
+
 }
