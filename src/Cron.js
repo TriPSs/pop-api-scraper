@@ -31,6 +31,7 @@ export default class Cron {
     PopApi.debug(`Registering ${name} with options: %o`, {
       cronTime,
       start,
+      schedule,
     })
 
     /**
