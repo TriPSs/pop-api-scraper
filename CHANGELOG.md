@@ -1,3 +1,12 @@
+## [0.8.1](https://github.com/pct-org/pop-api-scraper/compare/v0.8.0...v0.8.1) (2020-04-21)
+
+
+### Bug Fixes
+
+* Added schedule to the log ([3de9b6b](https://github.com/pct-org/pop-api-scraper/commit/3de9b6bfc337333b36ee3f828e4a0eec9ca1e355))
+
+
+
 # [0.8.0](https://github.com/pct-org/pop-api-scraper/compare/v0.1.2...v0.8.0) (2020-04-21)
 
 
