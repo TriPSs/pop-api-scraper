@@ -159,7 +159,7 @@ export default class PopApiScraper {
    * @returns {Promise<Array<Object>, Error>} - The array of the scraped
    * content.
    */
-  async scrape(concurrency?: number = 1): Promise<Array<Object> | Error> {
+  scrape = async(concurrency: number = 1): Promise<Array<Object> | Error> => {
     await this.setUpdated(Math.floor(new Date().getTime() / 1000))
 
     const providers = PopApiScraper._installedPlugins.values()
