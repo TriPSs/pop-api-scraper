@@ -1,3 +1,12 @@
+## [0.8.2](https://github.com/pct-org/pop-api-scraper/compare/v0.8.1...v0.8.2) (2020-04-22)
+
+
+### Bug Fixes
+
+* Fixed that this functions where not defined ([bca650a](https://github.com/pct-org/pop-api-scraper/commit/bca650afd39d7704341899475d1b1390968b2d48))
+
+
+
 ## [0.8.1](https://github.com/pct-org/pop-api-scraper/compare/v0.8.0...v0.8.1) (2020-04-21)
 
 
@@ -33,15 +42,6 @@
 
 * **Cron:** Fix issue where cronjob does not start on creation ([#5](https://github.com/pct-org/pop-api-scraper/issues/5)) ([cdd965e](https://github.com/pct-org/pop-api-scraper/commit/cdd965e51e46e0c4d546c15c048d6c7fc4deb8a3))
 * **PopApiScraper:** Fix issue where status files are empty ([#6](https://github.com/pct-org/pop-api-scraper/issues/6)) ([9ac9975](https://github.com/pct-org/pop-api-scraper/commit/9ac9975266c10a293ac337d0fabfe92ce3041c9e))
-
-
-
-# [0.1.0](https://github.com/pct-org/pop-api-scraper/compare/e8deafd4fd595b5ff8ad267618e7fd75d37d91d1...v0.1.0) (2017-12-27)
-
-
-### Features
-
-* **initial-release:** Initial relase for npm registery ([e8deafd](https://github.com/pct-org/pop-api-scraper/commit/e8deafd4fd595b5ff8ad267618e7fd75d37d91d1))
 
 
 
